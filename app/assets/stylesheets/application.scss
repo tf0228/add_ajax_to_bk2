@@ -1,0 +1,45 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";  /*ここを追加*/
+@import "bootstrap";            /*ここを追加*/
+
+header {
+	color:white;
+}
+
+header .navbar-left span {
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+body {
+	margin-top: 40px;
+}
+
+.actions {
+	margin-top:10px;
+}
+a:visited {
+  color: #666;
+}
+#error_explanation {
+  color: red;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+.comment-avatar {
+  float: left;
+}
+
+.comment-text {
+  float: left;
+}
+
+.search-form {
+  margin: 20px 0;
+  text-align: center;
+}
